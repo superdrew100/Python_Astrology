@@ -12,8 +12,6 @@ def randomVerb():
     return verbs[random.randint(0,len(verbs))]
 print("RANDOM VERB TEST: "+ randomVerb())
 
-
-
 match name:
     case "Drew":
         print("If you want to "+randomVerb()+" your profession to the next level, you'll need to "+randomVerb()+" some adjustments Possably by "+randomVerb()+" a deer. Identify the goals you wish to achieve such as assasinating JFK. "+randomVerb().capitalize()+" the pillars of your actual literal house that support your house may be necessary if you wish to "+randomVerb()+" not having your house collaps(rlly tho get that shit checked out), "+randomVerb()+" a new level of fire, or "+randomVerb()+" a different direction in your career. "+randomVerb().capitalize()+" yourself with the right people.")

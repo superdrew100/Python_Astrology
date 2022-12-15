@@ -1,5 +1,4 @@
 import random
-
 #ANSI colors
 """ ANSI color codes """
 BLACK = "\033[0;30m"
@@ -30,6 +29,7 @@ END = "\033[0m"
 def EnterName():
     return input("Please enter your"+ YELLOW+ " name \033[0m so I may give you your REAL Astrology fortune: ").capitalize()
 
+#stuff with your name
 name = EnterName()
 nameList = []
 nameList.append(name)
@@ -50,18 +50,17 @@ print("created by the beautiful "+GREEN+" Andrew Philipino Thomassassassossassas
 print("\n")
 
 
-#this is a list of verbs to use
-#verbs = ["criticize","tear","pin","cope","constitute","summon","calculate","tax","extend","change","situate","consult","arrest","laugh","enquire","reproduce","remark","lock","open","shrug","speed","ride","characterize","suspect","design","force","see","evaluate","precede","register","update","restrict","forget","land","head","shut","miss","weigh","swim","frown","breathe","arrive","wander","ease","protest","charge","crawl","emphasize","care","state"]
+#this is a list of verbs to use grabbed from the verb.txt file
 with open('verbs.txt','r') as f:
     verbs = list(f)
-#this is a list of nouns
-#nouns = ['people','history','way','art','world','information','map','two','family','government','health','system','computer','meat','year','thanks','music','person','reading','method','data','food','understanding','theory','law','bird','literature','problem','software','control','knowledge','power','ability','economics','love','internet','television','science','library','nature','fact','product','idea','temperature','investment','area','society','activity','story','industry','media','thing','oven','community','definition','safety','quality','development','language','management','player','variety','video','week','security','country','exam','movie','organization','equipment','physics','analysis','policy','series','thought','basis','boyfriend','direction','strategy','technology','army','camera','freedom','paper','environment','child','instance','month','truth','marketing']
+
+#this is a list of nouns grabbed from the noun.txt file
 with open('nouns.txt','r') as f:
     nouns = list(f)
+
 #this is a list of adverbs grabbing from the adverbs.txt file
 with open('adverbs.txt','r') as f:
     adverbs = list(f)
-
 
 #this is a list of adjectives
 #adjective = []
@@ -71,21 +70,18 @@ with open('adjectives.txt','r') as f:
 #this will return a random verb from the list of verbs
 def randomVerb():
     return verbs[random.randint(0,len(verbs)-1)]
-#print("RANDOM VERB TEST: "+ randomVerb())
 
 #this will return a random noun from the list of nouns
 def randomNoun():
     return nouns[random.randint(0,len(nouns)-1)]
-#print("random test popopy scoopity: "+ randomNoun())
+
 #this will return a rancom adverb from the list of adverbs
 def randomAdverb():
     return adverbs[random.randint(0,len(adverbs)-1)]
-#print("RANDOM ADVERB TEST: "+ randomAdverb())
 
 #this will return a random adjective from the list of adjectives
 def randomAdjective():
     return adjectives[random.randint(0,len(adjectives)-1)]
-#print("RANDOM ADVERB TEST: "+ randomAdjective())
 
 print(" ACCORING TO MY SUPER SUPER SENSES YOUR RIDDLE OF THE DAY IS "+randomAdjective()+" "+randomNoun()+" "+randomVerb()+" "+randomAdverb()+".")
 
@@ -109,57 +105,57 @@ match name:
 
 match firstLetter:
     case "A":
-        print("poop")
+        print(firstLetter+ " poop")
     case "B":
-        print('damn')
+        print(firstLetter+'damn')
     case "C":
-        print("poop")
+        print(firstLetter+"poop")
     case "D":
-        print('damn')
+        print(firstLetter+'damn')
     case "E":
-        print("poop")
+        print(firstLetter+"poop")
     case "F":
-        print('damn')
+        print(firstLetter+'damn')
     case "G":
-        print("poop")
+        print(firstLetter+"poop")
     case "H":
-        print('damn')
+        print(firstLetter+'damn')
     case "I":
-        print("poop")
+        print(firstLetter+"poop")
     case "J":
-        print('damn')
+        print(firstLetter+'damn')
     case "K":
-        print("poop")
+        print(firstLetter+"poop")
     case "L":
-        print('damn')
+        print(firstLetter+'damn')
     case "M":
-        print("poop")
+        print(firstLetter+"poop")
     case "N":
-        print('damn')
+        print(firstLetter+'damn')
     case "O":
-        print("poop")
+        print(firstLetter+"poop")
     case "P":
-        print('damn')
+        print(firstLetter+'damn')
     case "Q":
-        print("poop")
+        print(firstLetter+"poop")
     case "R":
-        print('damn')
+        print(firstLetter+'damn')
     case "S":
-        print("poop")
+        print(firstLetter+"poop")
     case "T":
-        print('damn')
+        print(firstLetter+'damn')
     case "U":
-        print("poop")
+        print(firstLetter+"poop")
     case "V":
-        print('damn god damn')
+        print(firstLetter+'damn god damn')
     case "W":
-        print("poop")
+        print(firstLetter+"poop")
     case "X":
-        print('damn')
+        print(firstLetter+'damn')
     case "Y":
-        print("poop")
+        print(firstLetter+"poop")
     case "Z":
-        print('damn')
+        print(firstLetter+'damn')
     case _:
         print("you don't have a name so your like super cursed man your super fucked man")
 

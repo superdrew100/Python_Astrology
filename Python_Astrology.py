@@ -23,8 +23,6 @@ def randomNoun():
 print("random test popopy scoopity: "+ randomNoun())
 
 
-
-
 match name:
     case "Drew":
         print("If you want to "+randomVerb()+" your profession to the next level, you'll need to "+randomVerb()+" some adjustments Possably by "+randomVerb()+" a deer. Identify the goals you wish to achieve such as assasinating JFK. "+randomVerb().capitalize()+" the pillars of your actual literal house that support your house may be necessary if you wish to "+randomVerb()+" not having your house collaps(rlly tho get that shit checked out), "+randomVerb()+" a new level of fire, or "+randomVerb()+" a different direction in your career. "+randomVerb().capitalize()+" yourself with the right people.")
@@ -97,3 +95,7 @@ match firstLetter:
         print('damn')
     case _:
         print("you don't have a name so your like super cursed man your super fucked")
+        print("you don't have a name so your like super cursed man")
+
+
+# This is a testasjdfalskdfjsal;dfjlsjdfk

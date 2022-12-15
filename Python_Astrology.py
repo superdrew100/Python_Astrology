@@ -6,11 +6,22 @@ firstLetter = nameList[0][0]
 
 #this is a list of verbs to use
 verbs = ["criticize","tear","pin","cope","constitute","summon","calculate","tax","extend","change","situate","consult","arrest","laugh","enquire","reproduce","remark","lock","open","shrug","speed","ride","characterize","suspect","design","force","see","evaluate","precede","register","update","restrict","forget","land","head","shut","miss","weigh","swim","frown","breathe","arrive","wander","ease","protest","charge","crawl","emphasize","care","state"]
-
+#this is a list of nouns
+nouns = [
+'people','history','way','art','world','information','map','two','family','government','health','system','computer','meat','year','thanks','music','person','reading','method','data','food','understanding','theory','law','bird','literature','problem','software','control','knowledge','power','ability','economics','love','internet','television','science','library','nature','fact','product','idea','temperature','investment','area','society','activity','story','industry','media','thing','oven','community','definition','safety','quality','development','language','management','player','variety','video','week','security','country','exam','movie','organization','equipment','physics','analysis','policy','series','thought','basis','boyfriend','direction','strategy','technology','army','camera','freedom','paper','environment','child','instance','month','truth','marketing']
+#this is a list of adverbs
+adverbs = []
+#this is a list of adjectives
+adjective = []
 #this will return a random verb from the list of verbs
 def randomVerb():
     return verbs[random.randint(0,len(verbs))]
 print("RANDOM VERB TEST: "+ randomVerb())
+#this will return a random noun from the list of nouns
+def randomNoun():
+    return nouns[random.randint(0,len(nouns))]
+print("random test popopy scoopity: "+ randomNoun())
+
 
 
 

@@ -84,7 +84,7 @@ match firstLetter:
     case "U":
         print("poop")
     case "V":
-        print('damn')
+        print('damn god damn')
     case "W":
         print("poop")
     case "X":
@@ -94,8 +94,5 @@ match firstLetter:
     case "Z":
         print('damn')
     case _:
-        print("you don't have a name so your like super cursed man your super fucked")
-        print("you don't have a name so your like super cursed man")
-
-
+        print("you don't have a name so your like super cursed man your super fucked man")
 # This is a testasjdfalskdfjsal;dfjlsjdfk

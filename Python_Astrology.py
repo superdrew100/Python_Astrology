@@ -4,6 +4,7 @@ nameList = []
 nameList.append(name)
 firstLetter = nameList[0][0]
 
+verbs = ["criticize","tear","pin","cope","constitute","summon","calculate","tax","extend","change","situate","consult","arrest","laugh","enquire","reproduce","remark","lock","open","shrug","speed","ride","characterize","suspect","design","force","see","evaluate","precede","register","update","restrict","forget","land","head","shut","miss","weigh","swim","frown","breathe","arrive","wander","ease","protest","charge","crawl","emphasize","care","state"]
 match name:
     case "Drew":
         print("If you want to take your profession to the next level, you'll need to make some adjustments Possably by smiling. Identify the goals you wish to achieve such as assasinating JFK. Adjusting the pillars of your actual literal house that support your house may be necessary if you wish to pursue not having your house collaps(rlly tho get that shit checked out), achieve a new level of fire, or take a different direction in your career. Surround yourself with the right people.")
@@ -76,3 +77,5 @@ match firstLetter:
         print('damn')
     case _:
         print("you don't have a name so your like super cursed man")
+
+
